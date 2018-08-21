@@ -1,0 +1,8 @@
+{
+  "name": "tiempoMusical",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular",
+  "pro_id": "2b67b5a1"
+}
