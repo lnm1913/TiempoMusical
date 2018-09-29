@@ -1,0 +1,52 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Mi Registro</ion-title> 
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+    <ion-item id="rounded">
+      <ion-icon item-start ios="ios-contact" md="md-contact"></ion-icon>
+      <ion-input type="text" placeholder="Nombres"></ion-input>
+    </ion-item>
+    <ion-item id="rounded">
+      <ion-icon item-start ios="ios-contact" md="md-contact"></ion-icon>
+      <ion-input type="text" placeholder="Apellidos"></ion-input>
+    </ion-item>
+    <ion-item id="rounded">
+      <ion-icon item-start ios="ios-mail" md="md-mail"></ion-icon>
+      <ion-input type="email" placeholder="Correo electronico"></ion-input>
+    </ion-item>
+    <ion-item id="rounded">
+      <ion-icon item-start ios="ios-key" md="md-key"></ion-icon>
+      <ion-input type="password" placeholder="Contraseña"></ion-input>
+    </ion-item>
+    <ion-item id="rounded">
+      <ion-icon item-start ios="ios-key" md="md-key"></ion-icon>
+      <ion-input type="password" placeholder="Confirmar contraseña"></ion-input>
+    </ion-item>    
+    <ion-item id="rounded">
+      <ion-icon item-start ios="ios-musical-note" md="md-musical-note"></ion-icon>
+      <ion-label>Grupos instrumentos musicales</ion-label>
+      <ion-select>
+          <ion-option value="Viento">Viento</ion-option>
+          <ion-option value="Cuerda">Cuerda</ion-option>
+          <ion-option value="Percusion">Percusion</ion-option>
+      </ion-select>
+    </ion-item>  
+    <ion-item id="rounded">
+      <ion-icon item-start ios="ios-musical-note" md="md-musical-note"></ion-icon>
+      <ion-label>Instrumentos Musicales</ion-label>
+      <ion-select>
+        <ion-option value="">Guitarra</ion-option>
+        <ion-option value="">Bateria</ion-option>
+        <ion-option value="">Violin</ion-option>
+      </ion-select>
+    </ion-item> 
+  </ion-list>
+  <br>
+  <div text-center>
+    <button ion-button color="boton" class="letras">Registrarme</button>
+  </div>
+</ion-content>
