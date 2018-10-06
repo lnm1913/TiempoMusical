@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { NavController, MenuController, NavParams, ModalController } from 'ionic-angular';
 import { IniciarSesionPage } from '../iniciar-sesion/iniciar-sesion';
 import { RegistroPage } from '../registro/registro';
+// import{Timer};
 
 
 @Component({

@@ -9,6 +9,7 @@ import { HomePage } from '../pages/home/home';
 import { RegistroPage } from '../pages/registro/registro';
 import { IniciarSesionPage } from '../pages/iniciar-sesion/iniciar-sesion';
 import { PrograEstudioPage } from '../pages/progra-estudio/progra-estudio';
+import { TimerComponent } from '../components/timer/timer';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { PrograEstudioPage } from '../pages/progra-estudio/progra-estudio';
     HomePage,
     IniciarSesionPage,
     RegistroPage,
-    PrograEstudioPage    
+    PrograEstudioPage,
+    TimerComponent
   ],
   imports: [
     BrowserModule,
